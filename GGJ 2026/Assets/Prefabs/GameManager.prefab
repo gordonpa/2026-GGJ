@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3653485975139477221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3981996786507458644}
+  - component: {fileID: 8703208707349511047}
+  - component: {fileID: 1144529748039525021}
+  - component: {fileID: 5918306444331790042}
+  - component: {fileID: 4664476172573478457}
+  - component: {fileID: 748349387739723590}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3981996786507458644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653485975139477221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6887389, y: 1.6270022, z: -0.08969772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8703208707349511047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653485975139477221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 2688374735
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &1144529748039525021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653485975139477221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0330856fc8fac644c89a83c5e0fd3724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundsMin: {x: -20, y: -20}
+  boundsMax: {x: 20, y: 20}
+  showBounds: 1
+  boundsColor: {r: 1, g: 0, b: 0, a: 1}
+  showBoundsInGame: 1
+  boundsLineWidth: 0.05
+  autoStartGameOnAwake: 0
+  countdownTimer: {fileID: 0}
+  readyTime: 5
+  gameTime: 600
+  catcherWinsOnTimeout: 1
+  gameOverLeaderboardSource: {fileID: 0}
+--- !u!114 &5918306444331790042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653485975139477221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccef92bd3e2137468f3bc473afdcbb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionPercent: {x: 0.2, y: 0.02}
+  sizePercent: {x: 0.2, y: 0.06}
+  customFont: {fileID: 12800000, guid: 5e0ea8b5a4008424f8b0fe33660be980, type: 3}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0.6}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  survivorColor: {r: 0.3, g: 0.8, b: 0.3, a: 1}
+  chaserColor: {r: 0.9, g: 0.3, b: 0.3, a: 1}
+  showLayerDebug: 1
+--- !u!114 &4664476172573478457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653485975139477221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2d2804e43692c4982840699e27840b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winScoreThreshold: 100
+  gameManager: {fileID: 0}
+--- !u!114 &748349387739723590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653485975139477221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5f610dd09ffab4fab52e31d04d7066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverUI: {fileID: 0}
+  positionPercent: {x: 0.5, y: 0.02}
+  width: 320
+  rowHeight: 22

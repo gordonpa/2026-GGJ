@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/mission_test.unity
+    guid: fc1521970470dbf418bd791ba73907bb
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Samples/Netcode for GameObjects/1.11.0/Bootstrap/Scenes/Bootstrap.unity
+    guid: 7a6e122bd2b01425989087a299b6bb93
+  - enabled: 0
+    path: Assets/Scenes/LayerMapScene.unity
+    guid: f5a7235caf22a6b4fa43efa827071bb2
+  - enabled: 0
+    path: Assets/Scenes/Win_Counting.unity
+    guid: 272aa267e29c91c46bb1bab8c498b9aa
+  - enabled: 0
+    path: Assets/Scenes/Win02.unity
+    guid: f594c4436927da0409ba3961d0fe4543
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: b45b875a583483843a349032e47e3e43
+  m_configObjects: {}
